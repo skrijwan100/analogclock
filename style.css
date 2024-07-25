@@ -1,0 +1,41 @@
+#clockcantainar{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url('clock.png') no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+}
+#second{
+  border-radius: 24px;
+    height: 35%;
+    left: 49%;
+    top: 14%;
+    width: 1%;
+ opacity: 0.8;
+ 
+
+}
+#minute{
+  border-radius: 24px;
+    height: 33%;
+    left: 48.8%;
+    top: 18%;
+    width: 1.5%;
+ opacity: 0.8;
+
+}
+#hour{
+  border-radius: 24px;
+    height: 25%;
+    left: 48.7%;
+    top: 24%;
+    width: 2%;
+ opacity: 0.8;
+ 
+}
